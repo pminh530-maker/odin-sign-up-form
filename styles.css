@@ -1,0 +1,50 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(webfontkit-20260608-053149/norsebold-webfont.woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.logo-container {
+    background-image: url(green-leaf-plant.avif); 
+    background-size: cover;
+    width: 40vw;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+div.logo-text {
+    width: inherit;
+    height: 100px;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: my-cool-font;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+div.logo-text > img {
+    width: 100px;
+    height: 100px;
+}
+
+.form-container {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+form {
+    display: inline-block;
+}
